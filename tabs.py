@@ -9,6 +9,8 @@ import os
 from search_and_gen import get_top_4, gen_reply
 from streamlit.runtime import get_instance
 from streamlit.runtime.scriptrunner import get_script_run_ctx
+import json
+
 
 
 def calendario():
@@ -309,11 +311,60 @@ def cerca_circ():
             for i in range(len(search_res)):
                 with st.container(border=True):
                     title = str(search_res[i]['Metadata']['source'])
-                    st.code(title)
-                    cont = search_res[i]
-                    coltext, coladd = st.columns([4, 1])
-                    # coltext.write(cont)
-                    cadd = coladd.button("Aggiungi a contesto" , key = 'add' + str(i), use_container_width = True )
+                    cont = search_res[i]['Content']
+
+                    def extract_from_content(cont):
+                        filename = cont.split('filename:')
+                        after_filename = filename[1]
+
+                        filename = after_filename.split('\noggetto:')
+                        filename, after_filename = filename[0], filename[1]
+
+                        ogg = after_filename.split('\ndestinatari:')
+                        ogg, after_ogg = ogg[0], ogg[1]
+
+                        dest = after_ogg.split('\ndoc:')
+                        dest, after_dest = dest[0], dest[1]
+
+                        doc = after_dest.split('\ndoc_30w:')
+                        doc, after_doc = doc[0], doc[1]
+
+                        eventi_suggeriti = after_doc.split('\neventi_suggeriti:')
+                        doc_30w, eventi_suggeriti  = eventi_suggeriti[0], eventi_suggeriti[1]
+
+                        return filename, ogg, dest, doc, doc_30w, eventi_suggeriti
+                    
+                    filename, ogg, dest, doc, doc_30w, eventi_suggeriti = extract_from_content(cont)
+
+                    st.markdown(f"**{ogg.strip().capitalize()}**")
+                    st.write(f''':gray[{dest}]''')
+                    st.markdown(doc_30w)
+
+                    dictionary = json.loads(eventi_suggeriti)
+
+                    title_added = False
+
+                    for e in dictionary['eventi']:
+                        if "%" not in e['date_ora'] and len(e['date_ora']) > 8:
+                            if not title_added:
+                                st.markdown("**Eventi suggeriti**")
+                                title_added = True
+                            coldt, coltitle, coladd = st.columns([1,3, 1])
+                            coldt.markdown(f''':gray[{e['date_ora']}]''')
+                            coltitle.markdown(f''':gray[{e['titolo']}]''')
+                            cadd = coladd.button("Crea evento" , key = 'cal' + str(e), use_container_width = True )
+                        
+
+
+
+
+
+
+                    
+                    coltext, coladd = st.columns([1, 4])
+                    coltext.button("Apri",  key = 'apri' + str(i))
+
+                    cadd = coladd.button("Aggiungi a contesto" , key = 'add' + str(i),  type="primary" )
                     if cadd:
                         st.session_state.contesto_dict.append({'title': title, 'content': cont})
 

@@ -10,12 +10,11 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 from langchain.callbacks import get_openai_callback
 from langchain.document_loaders import CSVLoader
-
+from dotenv import load_dotenv
 
 def csv_to_vs(path_to_corpus, oaikey):
     load_dotenv()
     os.environ["OPENAI_API_KEY"] = oaikey
-    my_value_a = environ.get('OPENAI_API_KEY')
     loader = CSVLoader(file_path = path_to_corpus, source_column="filename", encoding='utf-8')
     data = loader.load()
     embeddings = OpenAIEmbeddings()
@@ -104,3 +103,39 @@ def gen_reply(query, context, chat_history):
         
 
     return response, chat_history
+
+
+def summarize(context):
+    from langchain.chat_models import ChatOpenAI
+    from langchain.schema import (
+        HumanMessage
+    )
+    model_name = "gpt-3.5-turbo"
+    chat = ChatOpenAI(model_name=model_name, temperature=0)
+    question = f"""Riassumi in 30 parole il seguente testo.
+
+                    Testo:{context}"""
+
+    response = chat([HumanMessage(content=question)]).content
+
+    return response
+
+
+def doc2event(context):
+    from langchain.chat_models import ChatOpenAI
+    from langchain.schema import (
+        HumanMessage
+    )
+    model_name = "gpt-3.5-turbo"
+    chat = ChatOpenAI(model_name=model_name, temperature=0)
+    question = f"""estrai tutti gli eventi in questo documento e restituiscili come testo json. Per ogni evento indica date_ora (%d %B %Y %H:%M) e titolo. Restituisci solo il json e nient'altro. La lista di eventi si chiama eventi.
+
+                    Testo:{context}"""
+
+    response = chat([HumanMessage(content=question)]).content
+
+    return response
+
+
+
+

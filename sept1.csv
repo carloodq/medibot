@@ -1,4 +1,4 @@
-filename,oggetto,destinatari,doc
+filename,oggetto,destinatari,doc,doc_30w,eventi_suggeriti
 ATA Circolare inizio settembre 2023 .pdf,"Comunicazione orario settimanale dal  4 settembre 2023 inizio nuovo anno scolastico  orario 
 articolato su 5 giorni lavorativi dal lunedì al venerdì .","              A tutto il personale A.T.A.  
   
@@ -20,7 +20,18 @@ con accordo tra le parti , rotazione ed in ultimo al sorteggio .
         
  
 f.to Dsga Maria Bersani  
-"
+","L'orario di servizio per il personale ATA sarà di 7 ore e 12 minuti al giorno, dal lunedì al venerdì, a partire dal 4 settembre. Prima di ciò, si manterrà l'orario su 6 giorni lavorativi. Si attenderà il personale supplente per definire i giorni di PT. Buon inizio di anno scolastico.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""4 settembre 2023"",
+            ""titolo"": ""Inizio dell'orario di servizio su 5 giorni lavorativi""
+        },
+        {
+            ""date_ora"": ""28 agosto 2023"",
+            ""titolo"": ""Mantenimento dell'orario su 6 giorni lavorativi""
+        }
+    ]
+}"
 Circ.01 Attività collegiali settembre.pdf,Convocazioni collegiali settembre 2023,"Ai docenti  
  
 Alla Dsga  
@@ -96,7 +107,50 @@ IL DIRIGENTE SCOLASTICO
     Prof. Marco Squarzoni  
       
      
- "
+ ","Il calendario delle attività prevede la presa di servizio dei nuovi docenti il 1 settembre, i collegi di indirizzo il 11 e 14 settembre, i consigli di classe e di presidenza il 12 settembre, e l'inizio delle attività didattiche il 13 settembre. Il dirigente scolastico è il Prof. Marco Squarzoni.","{
+  ""eventi"": [
+    {
+      ""date_ora"": ""1 settembre %Y %H:%M"",
+      ""titolo"": ""Presa di servizio nuovi docenti""
+    },
+    {
+      ""date_ora"": ""1 settembre %Y %H:%M"",
+      ""titolo"": ""COLLEGIO DEI DOCENTI""
+    },
+    {
+      ""date_ora"": ""11 settembre %Y %H:%M"",
+      ""titolo"": ""COLLEGI DI INDIRIZZO""
+    },
+    {
+      ""date_ora"": ""11 settembre %Y %H:%M"",
+      ""titolo"": ""CONSIGLI CLASSI PRIME""
+    },
+    {
+      ""date_ora"": ""12 settembre %Y %H:%M"",
+      ""titolo"": ""CONSIGLIO DI PRESIDENZA""
+    },
+    {
+      ""date_ora"": ""12 settembre %Y %H:%M"",
+      ""titolo"": ""DIPARTIMENTI DI MATERIA""
+    },
+    {
+      ""date_ora"": ""13 settembre %Y %H:%M"",
+      ""titolo"": ""inizio attività didattiche""
+    },
+    {
+      ""date_ora"": ""14 settembre %Y %H:%M"",
+      ""titolo"": ""COLLEGI DI INDIRIZZO""
+    },
+    {
+      ""date_ora"": ""20/21 settembre %Y %H:%M"",
+      ""titolo"": ""Consigli delle classi con alunni con Bes""
+    },
+    {
+      ""date_ora"": ""27 settembre %Y %H:%M"",
+      ""titolo"": ""Collegio docenti""
+    }
+  ]
+}"
 Circ.02 convocazione CD 1 settembre 23 .pdf,convocazione Collegio Docenti,"- A tutti i Docenti  
 - Al Personale ATA  
  
@@ -281,7 +335,22 @@ processi di apprendimento degli allievi, di monitoraggio della programmazione di
 particolari esigenze organizzative, gestionali e funzionali dell’Istituto, si rendessero nec essarie nel 
 tempo, compresi corsi di recupero/sportelli help in orario pomeridiano e durante il periodo estivo.  
 Verrà data comunque precedenza alle attività collegate con il piano di miglioramento.  
- "
+ ","Il Collegio dei docenti si riunisce il 1 settembre 2023 per approvare il verbale precedente, discutere dell'organizzazione dell'anno scolastico 2023-24 e dei criteri di utilizzo dell'organico autonomia. La riunione sarà presieduta dal Dirigente Scolastico e verbalizzata dalla prof.ssa Boschini.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""1 settembre 2023 10:00"",
+            ""titolo"": ""Collegio dei docenti convocato""
+        },
+        {
+            ""date_ora"": ""16 giugno 2023 14:00"",
+            ""titolo"": ""Collegio dei docenti del Liceo Medi di Villafranca di Verona""
+        },
+        {
+            ""date_ora"": ""1 settembre 2023"",
+            ""titolo"": ""Primo collegio docenti dell'a.s. 2023-2024""
+        }
+    ]
+}"
 Circ.03 Integrazione sostituzioni scrutini.pdf,Integrazione  sostituzione docenti per scrutini finali  31 agosto 2023,"A proff. Fasoli Mirandola, 
 Pachera, Lestingi  
 p.c. Zaffuto  
@@ -302,7 +371,30 @@ RIGGI ANDREA  ITA-STOGEO  2L -- PACHERA SILVIA  16.20
 La presente vale come nomina.  
         Il Dirigente Scolastico  
         Marco Squarzoni  
-"
+","Comunicata integrazione al prospetto sostituzione scrutini finali agosto: assenze docenti TURRA STEFANIA e AMBROSI FRANCESCA per INGLESE, RIGGI ANDREA per ITA-STOGEO e STOGEO. Nomina sostituti e orari scrutini. Firmato Dirigente Scolastico Marco Squarzoni.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""09 October 2022 09:10"",
+            ""titolo"": ""TURRA STEFANIA - Sostituzione scrutini finali agosto""
+        },
+        {
+            ""date_ora"": ""09 October 2022 09:30"",
+            ""titolo"": ""AMBROSI FRANCESCA - Sostituzione scrutini finali agosto""
+        },
+        {
+            ""date_ora"": ""09 October 2022 11:00"",
+            ""titolo"": ""RIGGI ANDREA - Sostituzione scrutini finali agosto""
+        },
+        {
+            ""date_ora"": ""09 October 2022 12:30"",
+            ""titolo"": ""RIGGI ANDREA - Sostituzione scrutini finali agosto""
+        },
+        {
+            ""date_ora"": ""09 October 2022 16:20"",
+            ""titolo"": ""RIGGI ANDREA - Sostituzione scrutini finali agosto""
+        }
+    ]
+}"
 Circ.04 borsa di studio Fiorentino.pdf,borsa di studio Giovanni Fiorentino,"Ai coordinatori di classe  a.s. 22/23  
  
  
@@ -320,7 +412,14 @@ Un sentito  ringra ziamento per la collaborazione.
               
         IL DIRIGENTE SCOLASTICO  
              Marco Squarzoni   
-"
+",La borsa di studio in memoria del Dirigente Scolastico Giovanni Fiorentino è destinata a studenti meritevoli con situazioni economiche svantaggiate. Si chiede di segnalare i nominativi degli studenti che rispondono ai requisiti per l'a.s. 2022-2023. Grazie per la collaborazione.,"{
+    ""eventi"": [
+        {
+            ""date_ora"": ""N/A"",
+            ""titolo"": ""Borsa di studio in memoria del Dirigente Scolastico Giovanni Fiorentino""
+        }
+    ]
+}"
 Circ.05 - Inizio anno scolastico 2023-24.pdf,primo giorno di scuola e ubicazione classi A.S. 2023 -24,"A tutte le classi  
          Alle famiglie  
          Ai docenti  
@@ -380,7 +479,34 @@ A tutti l’augurio di un buon anno scolastico.
  
  
  
- "
+ ","Le classi prime inizieranno il 13 settembre alle 8.50 e termineranno alle 11.45. Le classi seconde, terze, quarte e quinte inizieranno alle 7.55 e termineranno alle 11.45. L'orario completo verrà pubblicato nei prossimi giorni. Le lezioni dal lunedì al venerdì seguiranno un nuovo orario.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""13 settembre 2023 08:50"",
+            ""titolo"": ""Inizio lezioni classi prime""
+        },
+        {
+            ""date_ora"": ""13 settembre 2023 11:45"",
+            ""titolo"": ""Fine lezioni classi prime""
+        },
+        {
+            ""date_ora"": ""14 settembre 2023 07:55"",
+            ""titolo"": ""Inizio lezioni classi prime, seconde, terze, quarte, quinte""
+        },
+        {
+            ""date_ora"": ""14 settembre 2023 12:50"",
+            ""titolo"": ""Fine lezioni classi prime, seconde, terze, quarte, quinte""
+        },
+        {
+            ""date_ora"": ""15 settembre 2023 07:55"",
+            ""titolo"": ""Inizio lezioni classi prime, seconde, terze, quarte, quinte""
+        },
+        {
+            ""date_ora"": ""15 settembre 2023 12:50"",
+            ""titolo"": ""Fine lezioni classi prime, seconde, terze, quarte, quinte""
+        }
+    ]
+}"
 Circ.11 - Orario 13 settembre classi prime.pdf,ORARIO DEL PRIMO GIORNO DI SCUOLA,"                                                                          Agli studenti delle classi PRIME e loro famiglie  
                                                                           Ai docenti  
                                                                           Al personale ATA  
@@ -441,7 +567,18 @@ GUALTIERI
 DE TULLIO  SC. UMANE  
 TIBERIO  SC. UMANE  
 TIBERIO  
- "
+ ",Il primo giorno di scuola inizia alle 8.55 con l'accoglienza in aula magna. Le lezioni terminano alle 11.45 e gli studenti possono tornare a casa. L'orario delle lezioni per le varie classi è specificato nel testo.,"{
+    ""eventi"": [
+        {
+            ""date_ora"": ""13 settembre 2022 08:55"",
+            ""titolo"": ""Inizio lezioni per tutte le classi prime""
+        },
+        {
+            ""date_ora"": ""13 settembre 2022 11:45"",
+            ""titolo"": ""Fine delle lezioni, studenti liberi di tornare a casa""
+        }
+    ]
+}"
 Circ.12 - Orario 13 settembre classi 2^-3^-4^-5^.pdf,ORARIO DEL PRIMO GIORNO DI SCUOLA,"                                                         Agli studenti delle classi SECONDE, TERZE,  
  QUARTE, QUINTE  e loro famiglie  
  Ai docenti  
@@ -716,7 +853,26 @@ TONELLOTTO  GRECO
 TONELLOTTO  SCIENZE  
 NOGARA  INGLESE  
 ROINA  
- "
+ ","Il primo giorno di scuola inizia alle 7.55 e termina alle 11.45. L'orario delle lezioni è stato pubblicato per tutte le classi del Liceo Scientifico Statale ""Enrico Medi"" di Villafranca di Verona il 13 settembre 2023.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""13 settembre 2023 07:55"",
+            ""titolo"": ""Inizio lezioni primo giorno di scuola""
+        },
+        {
+            ""date_ora"": ""13 settembre 2023 08:00"",
+            ""titolo"": ""Orario lezioni Liceo Scientifico Statale 'Enrico Medi'""
+        },
+        {
+            ""date_ora"": ""13 settembre 2023 08:00"",
+            ""titolo"": ""Orario lezioni Liceo Scientifico Statale 'Enrico Medi'""
+        },
+        {
+            ""date_ora"": ""13 settembre 2023 08:00"",
+            ""titolo"": ""Orario lezioni Liceo Scientifico Statale 'Enrico Medi'""
+        }
+    ]
+}"
 Circ.13 - Orario docenti 13 settembre.pdf,orario 13 settembre,"                  AI DOCENTI  
                          Al personale ATA  
  
@@ -767,7 +923,14 @@ potenziamento.
  
  
  
-"
+","L'orario del primo giorno di scuola è stato modificato rispetto a quello provvisorio. Sono previste ore a disposizione per i docenti, che saranno svolte con potenziamento. Firmato dal Dirigente Scolastico Prof. Marco Squarzoni.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""11 settembre 2023 00:00"",
+            ""titolo"": ""Primo giorno di scuola""
+        }
+    ]
+}"
 Circ.14 - Riunione collaboratori 2023 avvio anno scolastico.pdf,Riunione personale collaboratore scolastico  per avvio nuovo anno scolastico.,"  Ai collaboratori scolastici   
  
  
@@ -783,7 +946,14 @@ O.D.G.:
  
   
       f.to Dsga Maria Bersani  
-"
+","Le SS.LL. sono convocate martedì 12 settembre alle ore 11,00 presso la biblioteca per la riunione di avvio nuovo anno scolastico. All'ordine del giorno: proposta Piano attività personale ATA, orario di servizio, assegnazione reparti, formazione. F.to Dsga Maria Bersani.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""12 settembre 2023 11:00"",
+            ""titolo"": ""Riunione di avvio nuovo anno scolastico""
+        }
+    ]
+}"
 Circ.15 - Tessere fotocopie - integrazione .pdf,Tesse ra fotocopie  -  disponibilità dal 13 settembre 2023,"  A TUTTI I DOCENTI  
    Al personale ATA  
   Alla DSGA  
@@ -821,7 +991,18 @@ Grazie per la collaborazione.
  
  
  
-"
+","I docenti con tessera fotocopie possono utilizzarla fino a esaurimento, poi richiedere una nuova tessera all'Ufficio Viaggi. La nuova tessera avrà 500 copie e nel 2024 verranno fornite schede con budget proporzionato. Si limita la produzione di stampe in sala docenti.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""01 settembre 2024 00:00"",
+            ""titolo"": ""Inizio nuovo anno scolastico""
+        },
+        {
+            ""date_ora"": ""dicembre 2024 00:00"",
+            ""titolo"": ""Espletamento del bando di gara""
+        }
+    ]
+}"
 Circ.15 - Tessere fotocopie .pdf,Tesse ra fotocopie  -  disponibilità dal 13 settembre 2023,"  A TUTTI I DOCENTI  
    Al personale ATA  
   Alla DSGA  
@@ -854,7 +1035,26 @@ Marco  Squarzoni
  
  
  
-"
+","I docenti possono utilizzare la tessera fotocopie fino ad esaurimento, poi richiederne una nuova all'Ufficio Viaggi. I docenti di nuova nomina devono richiederla direttamente. La produzione di stampe è limitata a 50 copie annue, poi si utilizza la tessera personale.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""01 settembre 2022 00:00"",
+            ""titolo"": ""Inizio nuovo anno scolastico""
+        },
+        {
+            ""date_ora"": ""01 settembre 2022 00:00"",
+            ""titolo"": ""Utilizzo tessera fotocopie""
+        },
+        {
+            ""date_ora"": ""01 settembre 2022 00:00"",
+            ""titolo"": ""Richiesta tessera da docenti di nuova nomina""
+        },
+        {
+            ""date_ora"": ""01 settembre 2022 00:00"",
+            ""titolo"": ""Ripristino modalità di consumo limitato per stampe in sala docenti""
+        }
+    ]
+}"
 Circ.16 ORARIO_PROVVISORIO_docenti.pdf,Pubblicazione o rario provvisorio docenti in vigore da  GIOVEDI’  14 settembre,"          AI DOCENTI  
            E p.c. Alla Dsga e Personale Ata  
  
@@ -886,7 +1086,14 @@ il completamento dell’organico.
    Marco Squarzoni  
  
  
-"
+",Viene pubblicato l'orario provvisorio in vigore dal 14 settembre. Le ore di recupero e potenziamento verranno richieste secondo necessità. La collocazione delle D e P sarà comunicata successivamente. La sorveglianza sarà curata dagli insegnanti. L'orario subirà modifiche con il completamento dell'organico.,"{
+    ""eventi"": [
+        {
+            ""date_ora"": ""14 settembre %Y %H:%M"",
+            ""titolo"": ""Pubblicazione dell'orario provvisorio""
+        }
+    ]
+}"
 Circ.17 - Salvataggio materiali sito web istituzionale.pdf,salvataggio materiali sito web istituzionale,"    Ai docenti  
  
  
@@ -909,7 +1116,14 @@ Ringrazio fin d’ora per la preziosa collaborazione.
               
 IL DIRIGENTE SCOLA STICO  
 Marco Squarzoni  
-"
+","Il dirigente scolastico Marco Squarzoni chiede ai docenti di inviare materiale da pubblicare sul nuovo sito web del gruppo Spaggiari, salvando i contenuti importanti prima della chiusura del vecchio sito. Ringrazia per la collaborazione.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""oggi"",
+            ""titolo"": ""Chiusura sito web istituzionale e passaggio al nuovo sito""
+        }
+    ]
+}"
 Circ.18 - Vademecum docenti.pdf,vademecum docenti 2023 -24,"        AI DOCENTI  
         E p.c. alla DSGA e ATA   
      
@@ -1222,7 +1436,66 @@ incompatibilità o conflitti di interessi con l’attività di pubblico dipenden
 completezza di informazione si rimanda alla lettura dell’art 53, comma 1 del d. 
 lgs n. 165/2001).  
  
- "
+ ","Il testo fornisce indicazioni sull'organizzazione dell'Istituto per l'a.s. 2023-2024, includendo l'uso del registro elettronico, la pubblicazione delle circolari, l'archiviazione dei compiti, le giustificazioni di assenze e ritardi degli studenti, la gestione dei progetti e delle prestazioni esterne, e le procedure per il personale.","{
+  ""eventi"": [
+    {
+      ""date_ora"": ""2023"",
+      ""titolo"": ""REGISTRO ELETTRONICO di CLASSE E PERSONALE “CLASSE VIVA”""
+    },
+    {
+      ""date_ora"": ""2023"",
+      ""titolo"": ""POSTA INVIATA O TRAMESSA A I DOCENTI - LE CIRCOLARI - dematerializzazione""
+    },
+    {
+      ""date_ora"": ""2023"",
+      ""titolo"": ""LE CIRCOLARI PER GLI ALUNNI NELLE CLASSI""
+    },
+    {
+      ""date_ora"": ""2023"",
+      ""titolo"": ""ARCHIVIAZIONE DEI COMPITI IN CLASSE""
+    },
+    {
+      ""date_ora"": ""2023"",
+      ""titolo"": ""GIUSTIFICAZIONE DELLE ASSENZE E DEI RITARDI DEGLI STUDENTI""
+    },
+    {
+      ""date_ora"": ""2023"",
+      ""titolo"": ""ASSENZE/USCITE/RITARDI E RUOLO DEL COORDINATORE DI CLASSE""
+    },
+    {
+      ""date_ora"": ""2023"",
+      ""titolo"": ""ORARIO E LEZIONI MATTUTINE - CHIUSURA CLASSI""
+    },
+    {
+      ""date_ora"": ""2023"",
+      ""titolo"": ""PROCEDURA INVIO MODULI ASSENZE/PERMESSI/FERIE ONLINE/ DA: \""CLASSE VIVA – MODULI ONLINE\""""
+    },
+    {
+      ""date_ora"": ""2023"",
+      ""titolo"": ""AGGIORNAMENTO E FORMAZIONE IN SERVIZIO""
+    },
+    {
+      ""date_ora"": ""2023"",
+      ""titolo"": ""VIAGGI E USCITE DIDATTICHE""
+    },
+    {
+      ""date_ora"": ""2023"",
+      ""titolo"": ""PRESENTAZIONE DI UN PROGETTO""
+    },
+    {
+      ""date_ora"": ""2023"",
+      ""titolo"": ""APERTURA/CHIUSURA SCUOLA""
+    },
+    {
+      ""date_ora"": ""2023"",
+      ""titolo"": ""PROCEDURE PER INTERVENTO PERSONALE ESTERNO ALLA SCUOLA""
+    },
+    {
+      ""date_ora"": ""2023"",
+      ""titolo"": ""ANAGRAFE DELLE PRESTAZIONI""
+    }
+  ]
+}"
 Circ.19 - Attività di Scienze motorie svolte al di fuori dell’istituto.pdf,Attività di Scienze motorie svolte al di fuori dell’istituto,"Ai genitori degli alunni  
  
  
@@ -1250,7 +1523,18 @@ autorizzo mio/a figlio/a a svolgere attività di Scienze motorie anche in spazi 
           Firma  
 Data _____________________     ___________________________  
  
-"
+","Al fine di seguire le linee guida per la ripresa dell'attività scolastica, alcune lezioni di Scienze Motorie verranno svolte all'aperto. È necessaria l'autorizzazione dei genitori per portare gli alunni in spazi esterni. Il modulo deve essere consegnato ai docenti.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""%d %B %Y %H:%M"",
+            ""titolo"": ""Attività di Scienze Motorie svolte all’aperto""
+        },
+        {
+            ""date_ora"": ""%d %B %Y %H:%M"",
+            ""titolo"": ""Autorizzazione dei genitori per attività all’esterno""
+        }
+    ]
+}"
 Circ.20 - Progetto accoglienza classi prime.pdf,PROGETTO  ACCOGLIENZA  CLASSI  PRIME,"Ad alunni  e famiglie  delle classi  PRIME  
 Ai docenti  delle classi  PRIME  
 Alla DSGA  
@@ -1315,7 +1599,30 @@ per il giorno  .
       Villafranca  di Verona,  _                     Firma  dei genitori  
  
  
- "
+ ","Il Liceo Statale E. Medi organizza una giornata di accoglienza per le classi prime a Casa Fontanafredda. Ogni classe ha un calendario specifico. Il servizio di trasporto è offerto dalla scuola, ma si chiede un contributo per il pranzo. Le famiglie devono segnalare eventuali intolleranze alimentari.","{
+  ""eventi"": [
+    {
+      ""date_ora"": ""18 settembre 2023 08:00"",
+      ""titolo"": ""Giornata di accoglienza per 1H-1D""
+    },
+    {
+      ""date_ora"": ""19 settembre 2023 08:00"",
+      ""titolo"": ""Giornata di accoglienza per 1B-1E""
+    },
+    {
+      ""date_ora"": ""20 settembre 2023 08:00"",
+      ""titolo"": ""Giornata di accoglienza per 1F""
+    },
+    {
+      ""date_ora"": ""21 settembre 2023 08:00"",
+      ""titolo"": ""Giornata di accoglienza per 1G-1L""
+    },
+    {
+      ""date_ora"": ""22 settembre 2023 08:00"",
+      ""titolo"": ""Giornata di accoglienza per 1A-1I""
+    }
+  ]
+}"
 Circ.22 - Orario provvisorio classi dal 14 settembre.pdf,Pubblicazione o rario provvisorio classi in vigore dal 1 4 settembre,"         A TUTTE LE CLASSI  
          ALLE FAMIGLIE  
          AI DOCENTI  
@@ -1345,7 +1652,18 @@ Buon anno scolastico !
  
  
  
-"
+","Pubblicato l'orario provvisorio delle lezioni in vigore dal 13 settembre. Le lezioni Cambridge inizieranno la prossima settimana. Eventuali variazioni verranno comunicate alle classi interessate. Controllare regolarmente le circolari. Le lezioni termineranno alle 12.50 questa settimana. Buon anno scolastico! Marco Squarzoni, dirigente scolastico.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""13 settembre %Y %H:%M"",
+            ""titolo"": ""Inizio lezioni classi Cambridge""
+        },
+        {
+            ""date_ora"": ""questa settimana %Y 12:50"",
+            ""titolo"": ""Fine lezioni settimana corrente""
+        }
+    ]
+}"
 Circ.23 - Viaggio-studio rete dei licei per l’archeologia ROMA saldo.pdf,Viaggio -studio  rete  dei licei  per l’archeologia  ROMA  saldo,"Agli  studenti  in elenco  
 Ai docenti  degli  alunni  in elenco  
 Ai genitori  degli  alunni  in elenco  
@@ -1416,7 +1734,26 @@ CORDIOLI  RICCARDO  2F
 FORONI  GIANMARCO  2G 
 GHIULEA  LUCREZIA  5 A 
 FERRIAN  LINDA  5 A 
- "
+ ","Viaggio studio licei per l'Archeologia a Roma dal 5 al 7 ottobre 2023, costo 242 euro con treno A/R e hotel mezza pensione. Acconto 150 euro, saldo entro il 18 settembre. Contattare referenti per chiarimenti.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""05 ottobre 2023 06:52"",
+            ""titolo"": ""Partenza da Verona""
+        },
+        {
+            ""date_ora"": ""05 ottobre 2023 10:10"",
+            ""titolo"": ""Arrivo a Roma""
+        },
+        {
+            ""date_ora"": ""07 ottobre 2023 18:50"",
+            ""titolo"": ""Partenza da Roma""
+        },
+        {
+            ""date_ora"": ""07 ottobre 2023 22:08"",
+            ""titolo"": ""Arrivo a Verona""
+        }
+    ]
+}"
 Circ.24 - Assemblea di apertura Redazione Medi@vox.pdf,Assemblea  di apertura  Redazione  Medi@vox,"                                                                                                Agli  studenti  del triennio  
 Ai docenti   
  
@@ -1457,7 +1794,18 @@ Le docent i         Il Dirigente  Scolastico
 Prof.ssa  Claudia  D’Arcamo        Prof.  Marco  Squarzoni  
 Prof.ssa  Carmen  Santi  
  
-"
+",Il 14 agosto 2018 il ponte Morandi crollò a Genova. Il giornalista avrebbe dovuto decidere chi intervistare e quale immagine scattare. Venerdì 22 settembre si terrà un'assemblea per presentare il progetto Medi@vox. La partecipazione è volontaria.,"{
+    ""eventi"": [
+        {
+            ""date_ora"": ""14 agosto 2018 00:00"",
+            ""titolo"": ""Tragedia del crollo del ponte Morandi""
+        },
+        {
+            ""date_ora"": ""22 settembre 00:00"",
+            ""titolo"": ""Assemblea di istituto per l'apertura del progetto Medi@vox""
+        }
+    ]
+}"
 Circ.25 - Corso di formazione Filosofia .pdf,corso di  formazione  “Il Novecento e la Filosofia”,"   Ai docenti interessati  
  
  
@@ -1493,7 +1841,14 @@ di inviare a tutti il link per il collegamento con Zoom.
  
 IL DIRIGENTE SCOLASTICO  
 Marco Squarzoni  
-"
+","Il prof. Latino propone il corso ""Il Novecento e la Filosofia"" che inizia il 6 ottobre 2023. Le lezioni si terranno in presenza presso la sede o in streaming su Zoom. Docenti iscritti e possibilità di partecipazione per altri interessati. Firmato Marco Squarzoni.","{
+  ""eventi"": [
+    {
+      ""date_ora"": ""6 ottobre 2023"",
+      ""titolo"": ""Inizio corso di formazione “Il Novecento e la Filosofia”""
+    }
+  ]
+}"
 Circ.26 - Mercatino del libro usato consegna ricavato.pdf,"Mercatino  del libro  usato,  consegna  ricavato  vendita","Agli studenti  delle  classi  
 seconde,  terze,  quarte,  quinte  
 Ai docenti   
@@ -1519,7 +1874,18 @@ Il Dirigente  Scolastico
 Prof.  Marco  Squarzoni  
  
  
-"
+","Martedì 19 settembre 2023 i genitori volontari del ""Mercatino del libro usato"" consegneranno il ricavato della vendita ai beneficiari nell'atrio della scuola durante le ricreazioni. Gli studenti interessati sono stati informati via mail. Grazie ai genitori volontari per il lavoro svolto.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""19 settembre 2023 09:45"",
+            ""titolo"": ""Consegna ricavato vendita Mercatino del libro usato""
+        },
+        {
+            ""date_ora"": ""19 settembre 2023 11:45"",
+            ""titolo"": ""Consegna ricavato vendita Mercatino del libro usato""
+        }
+    ]
+}"
 Circ.29 - Alunni non fanno religione non IRC.pdf,Alunni che non si avvalgono dell’insegnamento di religione cattolica,"         A tutte le classi  
          Alle famiglie  
          Ai docenti  
@@ -1558,7 +1924,14 @@ religione per la classe)
  
 Villafranca, ______________________          Firma _______________________________________  
      
-"
+",Gli studenti senza religione cattolica svolgeranno l'ora alternativa sorvegliati dalla scuola. Devono attendere il docente di religione prima di lasciare la classe e firmare il registro di presenza. È possibile chiedere entrata posticipata/uscita anticipata compilando un modulo entro il 18 settembre.,"{
+    ""eventi"": [
+        {
+            ""date_ora"": ""18 settembre %Y %H:%M"",
+            ""titolo"": ""Richiesta permesso entrata 2^ ora / uscita ultima ora""
+        }
+    ]
+}"
 Circ.32 - Progetto Vinkiamo 4.0 .pdf,"Progetto PCTO Vinkiamo  4.0 in collaborazione con Univr dipartimento di lingue e USR 
 Veneto","                                                                                Agli studenti delle class i 4^ di tutti gli indirizzi                                                    
                              Alle loro famiglie  
@@ -1599,7 +1972,30 @@ https://forms.gle/5FKKgiLWQYVQbfwTA
 Staff PCTO        
     Il Dirigente scolastico  
  
-"
+","Il progetto dell'Università di Verona e dell'USR Veneto promuove la biodiversità linguistica attraverso lo studio dei dialetti alpini italiani. Gli studenti partecipano a incontri formativi, raccolgono dati sul campo e presentano un report finale. Durata complessiva 30 ore. Conferma disponibilità entro il 27/09/2022.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""14 ottobre 2022 00:00"",
+            ""titolo"": ""Incontro formativo presso l'Università di Verona""
+        },
+        {
+            ""date_ora"": ""21 ottobre 2022 11:00"",
+            ""titolo"": ""Incontro formativo online""
+        },
+        {
+            ""date_ora"": ""23 ottobre 2022 00:00"",
+            ""titolo"": ""Inizio attività di scouting""
+        },
+        {
+            ""date_ora"": ""31 dicembre 2022 00:00"",
+            ""titolo"": ""Fine attività di scouting""
+        },
+        {
+            ""date_ora"": ""17 gennaio 2024 15:00"",
+            ""titolo"": ""Momento collettivo conclusivo""
+        }
+    ]
+}"
 Circ.34 - INGRESSI 2023 2024.pdf,ORGANIZZAZIONE INGRESSI  studenti A.S. 202 3-2024," A tutti gli studenti  
            Ai docenti  
 Al personale ATA  
@@ -1626,7 +2022,14 @@ Non sarà pertanto più cons entito utilizzare le altre porte di emergenza di se
  
  
  
-"
+","Gli studenti del 1° e 2° piano e dell'aula n. 15 entreranno ed usciranno dall'entrata principale, mentre quelli del seminterrato e dell'ala nuova utilizzeranno la porta n. 5. Non saranno più consentiti l'utilizzo delle altre porte di emergenza. Dirigente Scolastico: Marco Squarzoni.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""oggi %Y %H:%M"",
+            ""titolo"": ""Organizzazione degli ingressi e delle uscite per il corrente anno scolastico""
+        }
+    ]
+}"
 Circ.35 - Modifica orario 1E.pdf,LIEVE MODIFICA ORARIO SETTIMANALE,"       Alla classe 1E    
         Alla prof.ssa Costa  
        Al personale ATA  
@@ -1656,7 +2059,22 @@ ancora stati nominati i docenti di Geoenglish.
  
  
  
-"
+","Il Dirigente Scolastico Marco Squarzoni comunica una modifica all'orario settimanale delle lezioni: lunedì la 4^ ora sarà Geoenglish anziché Costa, mentre giovedì sarà Costa anziché Geoenglish. Lunedì 15 la prof.ssa Costa terrà comunque lezione in 4^ ora.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""Lunedì 15 %B %Y %H:%M"",
+            ""titolo"": ""prof.ssa Costa farà lezione in 4^ ora""
+        },
+        {
+            ""date_ora"": ""LUNEDÌ %d %B %Y %H:%M"",
+            ""titolo"": ""Geoenglish anziché Costa""
+        },
+        {
+            ""date_ora"": ""GIOVEDÌ %d %B %Y %H:%M"",
+            ""titolo"": ""prof.ssa Costa anziché Geoenglish""
+        }
+    ]
+}"
 Circ.36 - Convocazione gruppo di lavoro Orientamento .pdf,convocazione gruppo di lavoro sull’Orienta mento,"Ai docenti interessati 
 (elenco nella convocazione) 
  
@@ -1690,7 +2108,14 @@ Adami Alessandra – Manocchio Marily – Cinquetti Mas simo – Germiniani Elen
               
         IL DIRIGENTE SCOLASTICO 
              Marco Squarzoni  
- "
+ ",Il gruppo di lavoro sull'Orientamento scolastico si riunirà il 25 settembre per discutere della formazione e delle proposte per l'anno in corso. Sono invitati i docenti partecipanti alla formazione e quelli con funzione strumentale.,"{
+    ""eventi"": [
+        {
+            ""date_ora"": ""25 settembre %Y %H:%M"",
+            ""titolo"": ""Gruppo di lavoro sull'Orientamento scolastico""
+        }
+    ]
+}"
 Circ.37 4 Rettifica - Consigli di classe alunni con alunni con BES.pdf,Consigli di classe alunni  con alunni con B.e.s.,"Ai docenti delle classi   con 
 alunni B.e.s.      
           Al personale ATA   
@@ -1729,7 +2154,18 @@ PDP.
 ll Dirigente Scolastico            
      Marco Squarzoni  
 (Firma autografa sost. a mezzo stampa, ex art. 3 , co 2 comma 2, D.Lgs. 39/93)   
-"
+","Il calendario degli incontri dei consigli di classe con alunni con B.e.s. è stato pubblicato per la conoscenza degli studenti e la predisposizione dei PDP. Si discuteranno presentazione degli alunni, certificazioni, PDP, osservazioni e varie. I coordinatori contatteranno le famiglie per eventuali modifiche.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""20 settembre %Y %H:%M"",
+            ""titolo"": ""Consigli di classe con alunni con B.e.s.""
+        },
+        {
+            ""date_ora"": ""21 settembre %Y %H:%M"",
+            ""titolo"": ""Consigli di classe con alunni con B.e.s.""
+        }
+    ]
+}"
 Circ.37 Rettifica - Consigli di classe alunni con alunni con BES.pdf,Consigli di classe alunni  con alunni con B.e.s.,"Ai docenti delle classi   con 
 alunni B.e.s.      
           Al personale ATA   
@@ -1768,7 +2204,18 @@ PDP.
 ll Dirigente Scolastico            
      Marco Squarzoni  
 (Firma autografa sost. a mezzo stampa, ex art. 3 , co 2 comma 2, D.Lgs. 39/93)   
-"
+","Il calendario degli incontri dei consigli di classe con alunni con B.e.s. è stato pubblicato per la conoscenza degli studenti e la predisposizione dei PDP. I punti all'ordine del giorno includono la presentazione degli alunni, la visione della certificazione diagnostica, la presentazione e l'osservazione del PDP. I coordinatori contatteranno le famiglie per eventuali modifiche.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""20 settembre %Y %H:%M"",
+            ""titolo"": ""Calendario consigli di classe""
+        },
+        {
+            ""date_ora"": ""21 settembre %Y %H:%M"",
+            ""titolo"": ""Calendario consigli di classe""
+        }
+    ]
+}"
 Circ.38 - Piano delle attività 2023-24 - docenti.pdf,Pubblicazione Piano Annuale Attività docenti a.s. 2023 -2024,"        AI DOCENTI  
  
         E p.c.  Alla Dsga  
@@ -2097,7 +2544,106 @@ Convocazione primo collegio dei docenti a.s. 2024 -25: 2 settembre 2024
   
  
  Il Dirigente Scolastico  
-                Prof. Marco Squarzoni  "
+                Prof. Marco Squarzoni  ",Il Piano Annuale delle attività dei docenti per l’a.s. 2023-2024 è stato pubblicato. Si chiede ai docenti di presentare un prospetto annuale delle ore di attività non di insegnamento entro il 20 ottobre 2023. È importante partecipare ai vari incontri collegiali.,"{
+    ""eventi"": [
+        {
+            ""date_ora"": ""1 settembre 2023 10:00"",
+            ""titolo"": ""Collegio docenti Verbalista prof.ssa Boschini""
+        },
+        {
+            ""date_ora"": ""1 settembre 2023 14:00"",
+            ""titolo"": ""Consigli classi prime""
+        },
+        {
+            ""date_ora"": ""2 settembre 2023 14:30"",
+            ""titolo"": ""Collegio docenti Verbalista prof.ssa Grasso D.""
+        },
+        {
+            ""date_ora"": ""27 ottobre 2023 17:30"",
+            ""titolo"": ""Presentazione Ptof ai genitori da parte dei Coordinatori di classe ed elezioni dei Rappresentanti dei genitori nei consigli di classe""
+        },
+        {
+            ""date_ora"": ""30 ottobre 2023 14:30"",
+            ""titolo"": ""Collegio docenti approvazione Ptof Verbalista prof.ssa Gualtieri""
+        },
+        {
+            ""date_ora"": ""31 ottobre 2023"",
+            ""titolo"": ""Termine per l’inserimento delle programmazioni individuali""
+        },
+        {
+            ""date_ora"": ""13 novembre 2022"",
+            ""titolo"": ""Consigli di Classe con la componente genitori e alunni e a seguire RICEVIMENTI GENERALI""
+        },
+        {
+            ""date_ora"": ""7 dicembre 2023"",
+            ""titolo"": ""Chiusura colloqui con i genitori""
+        },
+        {
+            ""date_ora"": ""22 dicembre 2023"",
+            ""titolo"": ""Chiusura del primo periodo didattico (trimestre)""
+        },
+        {
+            ""date_ora"": ""31 gennaio 2024 14:30"",
+            ""titolo"": ""Dipartimenti materia""
+        },
+        {
+            ""date_ora"": ""31 gennaio 2024 16:00"",
+            ""titolo"": ""Collegi di indirizzo""
+        },
+        {
+            ""date_ora"": ""15 febbraio 2024"",
+            ""titolo"": ""Prove di recupero per insufficienze primo periodo""
+        },
+        {
+            ""date_ora"": ""15 febbraio 2024 14:30"",
+            ""titolo"": ""Collegio docenti – verbalista prof. Mirandola""
+        },
+        {
+            ""date_ora"": ""26 febbraio 2024"",
+            ""titolo"": ""Ripresa colloqui con i genitori – ON LINE""
+        },
+        {
+            ""date_ora"": ""29 aprile 2024"",
+            ""titolo"": ""Consigli di Classe per approvazione libri di testo e a seguire RICEVIMENTI GENERALI""
+        },
+        {
+            ""date_ora"": ""10 maggio 2024"",
+            ""titolo"": ""ULTIMA DATA UTILE PER USCITE DIDATTICHE""
+        },
+        {
+            ""date_ora"": ""13 maggio 2024"",
+            ""titolo"": ""Chiusura colloqui con i genitori""
+        },
+        {
+            ""date_ora"": ""7 giugno 2024"",
+            ""titolo"": ""Termine delle lezioni""
+        },
+        {
+            ""date_ora"": ""14 giugno 2024"",
+            ""titolo"": ""Dalle 9.00 Pubblicazione risultati classi I – II –III - IV""
+        },
+        {
+            ""date_ora"": ""14 giugno 2024 9:00"",
+            ""titolo"": ""Collegio docenti Verbalista prof. Tiberio""
+        },
+        {
+            ""date_ora"": ""19 giugno 2024 8:30"",
+            ""titolo"": ""Prima prova esami di Stato""
+        },
+        {
+            ""date_ora"": ""29 agosto 2024"",
+            ""titolo"": ""Scrutini""
+        },
+        {
+            ""date_ora"": ""30 agosto 2024"",
+            ""titolo"": ""Pubblicazione risultati""
+        },
+        {
+            ""date_ora"": ""2 settembre 2024"",
+            ""titolo"": ""Convocazione primo collegio dei docenti a.s. 2024 -25""
+        }
+    ]
+}"
 Circ.38 Rettifica del 12-10 - Piano delle attività 2023-24 - docenti.pdf,Pubblicazione Piano Annuale Attività docenti a.s. 2023 -2024,"        AI DOCENTI  
  
         E p.c.  Alla Dsga  
@@ -2476,7 +3022,122 @@ Dal 26 al 28   Prove recupero giudizi sospesi
  
  
  Il Dirigente Scolastico  
-                Prof. Marco Squarzoni  "
+                Prof. Marco Squarzoni  ",Il Piano Annuale delle attività dei docenti per l’a.s. 2023-2024 è stato pubblicato. Si chiede ai docenti di presentare un prospetto annuale delle ore di attività non di insegnamento entro il 20 ottobre 2023. È importante partecipare ai consigli di classe e evitare sovrapposizioni con altre attività.,"{
+    ""eventi"": [
+        {
+            ""date_ora"": ""1 settembre 2023 10:00"",
+            ""titolo"": ""Collegio docenti Verbalista prof.ssa Boschini""
+        },
+        {
+            ""date_ora"": ""1 settembre 2023 14:00"",
+            ""titolo"": ""Consigli classi prime""
+        },
+        {
+            ""date_ora"": ""12 settembre 2023 8:00"",
+            ""titolo"": ""Consiglio di presidenza""
+        },
+        {
+            ""date_ora"": ""12 settembre 2023 9:00"",
+            ""titolo"": ""Dipartimenti di materia""
+        },
+        {
+            ""date_ora"": ""14 settembre 2023 14:30"",
+            ""titolo"": ""Collegi di indirizzo: Scientifico/Scienze applicate""
+        },
+        {
+            ""date_ora"": ""14 settembre 2023 16:30"",
+            ""titolo"": ""Collegi di indirizzo: Classico""
+        },
+        {
+            ""date_ora"": ""27 settembre 2023 14:30"",
+            ""titolo"": ""Collegio docenti Verbalista prof.ssa Grasso D.""
+        },
+        {
+            ""date_ora"": ""2 ottobre 2023 14:30"",
+            ""titolo"": ""Dipartimenti disciplinari""
+        },
+        {
+            ""date_ora"": ""11 ottobre 2023 14:30"",
+            ""titolo"": ""GLI""
+        },
+        {
+            ""date_ora"": ""19 ottobre 2023 14:30"",
+            ""titolo"": ""Direttori Indirizzo per valutazione piano progetti""
+        },
+        {
+            ""date_ora"": ""30 ottobre 2023 14:30"",
+            ""titolo"": ""Collegio docenti approvazione Ptof Verbalista prof.ssa Gualtieri""
+        },
+        {
+            ""date_ora"": ""31 gennaio 2024 14:30"",
+            ""titolo"": ""Dipartimenti materia""
+        },
+        {
+            ""date_ora"": ""31 gennaio 2024 16:00"",
+            ""titolo"": ""Collegi di indirizzo""
+        },
+        {
+            ""date_ora"": ""15 febbraio 2024"",
+            ""titolo"": ""Collegio docenti verbalista prof. Mirandola""
+        },
+        {
+            ""date_ora"": ""20 marzo 2024"",
+            ""titolo"": ""Coordinamento Cambridge""
+        },
+        {
+            ""date_ora"": ""11 aprile 2024 14:30"",
+            ""titolo"": ""Dipartimenti di materia per adozione libri di testo""
+        },
+        {
+            ""date_ora"": ""29 aprile 2024"",
+            ""titolo"": ""Consigli di Classe per approvazione libri di testo e a seguire RICEVIMENTI GENERALI""
+        },
+        {
+            ""date_ora"": ""10 maggio 2024"",
+            ""titolo"": ""ULTIMA DATA UTILE PER USCITE DIDATTICHE""
+        },
+        {
+            ""date_ora"": ""13 maggio 2024 14:30"",
+            ""titolo"": ""Collegio docenti Verbalista prof. Tenerani""
+        },
+        {
+            ""date_ora"": ""16 maggio 2024 16:30"",
+            ""titolo"": ""Riunione PLENARIA classi quinte presieduta dal Dirigente per definizione commissioni esame""
+        },
+        {
+            ""date_ora"": ""26 maggio 2024"",
+            ""titolo"": ""Ripresa colloqui con i genitori – ON LINE""
+        },
+        {
+            ""date_ora"": ""29 aprile 2024"",
+            ""titolo"": ""Consigli di Classe per approvazione libri di testo e a seguire RICEVIMENTI GENERALI""
+        },
+        {
+            ""date_ora"": ""7 giugno 2024"",
+            ""titolo"": ""Termine delle lezioni""
+        },
+        {
+            ""date_ora"": ""14 giugno 2024"",
+            ""titolo"": ""Dalle 9.00 Pubblicazione risultati classi I – II –III - IV""
+        },
+        {
+            ""date_ora"": ""14 giugno 2024 9:00"",
+            ""titolo"": ""Collegio docenti Verbalista prof. Tiberio""
+        },
+        {
+            ""date_ora"": ""19 giugno 2024 8:30"",
+            ""titolo"": ""Prima prova esami di Stato""
+        },
+        {
+            ""date_ora"": ""29 agosto 2024"",
+            ""titolo"": ""Scrutini""
+        },
+        {
+            ""date_ora"": ""29 agosto 2024"",
+            ""titolo"": ""Pubblicazione risultati""
+        }
+    ]
+}"
 Circ.40 - Convocazione gruppo lavoro L. Classico.pdf,Convocazione riunione per indirizzo classico," ai docenti:  
  prof.ssa Adami Alessandra  
  prof.ssa Girelli Lucia  
@@ -2501,7 +3162,14 @@ seguente ordine del giorno:
  
  il Dirigente Scolastico  
  prof. Marco Squarzoni  
- "
+ ","I docenti dell'indirizzo classico sono convocati il 22 settembre alle 14:00 per discutere la riorganizzazione dell'offerta formativa e la presentazione per l'orientamento in ingresso. Firmato dal Dirigente Scolastico, prof. Marco Squarzoni.","{
+  ""eventi"": [
+    {
+      ""date_ora"": ""22 settembre 2017 14:00"",
+      ""titolo"": ""Convocazione docenti""
+    }
+  ]
+}"
 Circ.42 - Sciopero 25 settembre 2023 C.S.L.E. per FAMIGLIE.pdf,"Comparto Istruzione e Ricerca – Sezione Scuola.  
 Sciopero intera giornata del 25 settembre 2023 , indetto da l Sindacato : 
 C.S.L.E. Confederazione Sindacati Lavoratori Europei .","Ai Sigg. Genitori degli alunni  
@@ -2573,7 +3241,14 @@ potrebbero essere fatte uscire anticipatamente.
  
  
     Il Dirigente Scolastico  
-                      Prof. Marco Squarzoni  "
+                      Prof. Marco Squarzoni  ","Lo sciopero del 25.09.2023 coinvolgerà tutto il personale scolastico in Italia e all'estero per richiedere aumenti salariali, buoni pasto, abolizione di vincoli e migliorie nelle condizioni di lavoro. Le organizzazioni sindacali hanno bassa rappresentatività e adesione ai precedenti scioperi.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""25 settembre 2023 00:00"",
+            ""titolo"": ""Sciopero del Personale Scolastico""
+        }
+    ]
+}"
 Circ.43  - Convocazione CD 27 settembre.pdf,convocazione collegio dei docenti,"           AI DOCENTI  
  
  
@@ -2747,7 +3422,18 @@ Il documento è allegato al verbale del Collegio.
  
 Il Collegio approva e fa proprio il documento della Cabina di Regia della Rete 
 Nazionale dei Licei Economico -Sociali con voti……  
-  "
+  ","Il Collegio docenti si riunisce il 27 settembre 2023 per discutere vari punti all'ordine del giorno, tra cui l'approvazione del verbale precedente, i risultati Invalsi, i progetti per l'anno scolastico, il nuovo Modello Pdp e le elezioni delle Funzioni Strumentali Offerta Formativa. Il Dirigente Scolastico presiede la riunione.","{
+  ""eventi"": [
+    {
+      ""date_ora"": ""27 settembre 2023 14:30"",
+      ""titolo"": ""Collegio docenti""
+    },
+    {
+      ""date_ora"": ""1 settembre 2023 10:00"",
+      ""titolo"": ""Collegio Docenti del Liceo Medi di Villafranca di Verona""
+    }
+  ]
+}"
 Circ.44 - Ritardi per trasporto.pdf,Ritardi per motivi di trasporto,"       Ai docenti     
         Al personale ATA  
  
@@ -2777,7 +3463,22 @@ controllo da  parte del docente.
  
  
  
-"
+","Alcune linee ATV hanno problemi inizio anno scolastico, in particolare da Lugagnano. Docenti prima ora aspettino le 8.10 per segnare ritardo. Dopo, segnalare senza giustificazione se dovuto a trasporto. Elenco alunni sulla cattedra per controllo. Marco Squarzoni, Dirigente Scolastico.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""oggi %H:%M"",
+            ""titolo"": ""Segnalazione criticità linee ATV""
+        },
+        {
+            ""date_ora"": ""oggi %H:%M"",
+            ""titolo"": ""Richiesta ai docenti della prima ora""
+        },
+        {
+            ""date_ora"": ""oggi %H:%M"",
+            ""titolo"": ""Posizionamento elenco alunni sulla cattedra""
+        }
+    ]
+}"
 Circ.45 -Riunione assistenti amm e tec 2023 avvio anno scolastico.pdf,"Riunione del personale assistente amministrativo e assistente tecnico  per avvio nuovo anno 
 scolastico.","Al personale assistente amm.vo e assistente tecnico  
  
@@ -2794,7 +3495,14 @@ O.D.G.:
  
   
       f.to Dsga Maria Bersani  
-"
+","Le SS.LL. sono convocate martedì 26 settembre alle ore 9,00 presso la biblioteca per la riunione di avvio nuovo anno scolastico. All'ordine del giorno: proposta Piano attività personale ATA, orario di servizio, organizzazione del lavoro, formazione. F.to Dsga Maria Bersani.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""26 settembre 2023 09:00"",
+            ""titolo"": ""Riunione di avvio nuovo anno scolastico""
+        }
+    ]
+}"
 Circ.46 - Liquidazioni Progetti e FIS A.S. 2022-2023.pdf,LIQUIDAZIONE PROGETTI e M.O.F.  a.s. 2022 -2023.,"                A tutto il personale DOCENTE ed A.T.A.  
   
  
@@ -2850,7 +3558,18 @@ Dsga Maria Bersani
    
       IL Dirigente scolastico  
       Prof. Squarzoni Marco  
-"
+",Nel mese di agosto sono stati liquidati i progetti dell'anno scolastico 2022-2023. I cedolini possono essere consultati e scaricati tramite il portale Spaggiari. I compensi del FIS 2022-2023 saranno visibili su NOIPA presumibilmente da ottobre. Tutti i compensi sono stati liquidati.,"{
+    ""eventi"": [
+        {
+            ""date_ora"": ""1 August 2023 00:00"",
+            ""titolo"": ""PAGAMENTO PROGETTI A.S. 2022/2023""
+        },
+        {
+            ""date_ora"": ""1 October 2023 00:00"",
+            ""titolo"": ""PAGAMENTO FIS 2022 -2023""
+        }
+    ]
+}"
 Circ.47 - Comunità_sostenibili .pdf,"Progetto “Comunità sostenibili” in collaborazi one con INVITALIA Spa e UNIVR - avvio 
 attività","Agli studenti delle class i 3F e 3G                                                    
 Alle loro famiglie  
@@ -2880,7 +3599,34 @@ Prof.ssa De Tullio Angela
 Prof.ssa Sbrozzeri Barbara  
      
  
-"
+","Le classi 3F e 3G parteciperanno al progetto ""Comunità sostenibili"" per approfondire la sostenibilità in ambito scientifico, umanistico e giuridico. Le attività si svolgeranno secondo un calendario specifico. Si invita a segnare le date e si ringrazia per la collaborazione.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""25 settembre 2022 07:55"",
+            ""titolo"": ""Attività classe 3F""
+        },
+        {
+            ""date_ora"": ""5 ottobre 2022 07:55"",
+            ""titolo"": ""Attività classe 3F""
+        },
+        {
+            ""date_ora"": ""13 ottobre 2022 07:55"",
+            ""titolo"": ""Attività classe 3F""
+        },
+        {
+            ""date_ora"": ""16 ottobre 2022 07:55"",
+            ""titolo"": ""Attività classe 3G""
+        },
+        {
+            ""date_ora"": ""26 ottobre 2022 07:55"",
+            ""titolo"": ""Attività classe 3G""
+        },
+        {
+            ""date_ora"": ""3 novembre 2022 07:55"",
+            ""titolo"": ""Attività classe 3G""
+        }
+    ]
+}"
 Circ.47 rettifica -  comunità_sostenibili  - rettifica orario.pdf,"Progetto “Comunità sostenibili” in collaborazi one con INVITALIA Spa e UNIVR – 
 RETTIFICA ORARIO","                                                                                Agli studenti delle class i 3F e 3G                                                    
                                                      Alle loro famiglie  
@@ -2911,7 +3657,58 @@ Prof.ssa De Tullio Angela
 Prof.ssa Sbrozzeri Barbara  
      
  
-"
+",Le lezioni delle classi 3F e 3G subiscono lievi modifiche negli orari di inizio e fine. È necessaria la presenza di un docente informato durante gli interventi esterni. I coordinatori sono invitati ad annotare le attività. Grazie per la collaborazione.,"{
+    ""eventi"": [
+        {
+            ""date_ora"": ""25 settembre 2023 8:50"",
+            ""titolo"": ""Inizio lezioni classe 3F""
+        },
+        {
+            ""date_ora"": ""25 settembre 2023 12:50"",
+            ""titolo"": ""Fine lezioni classe 3F""
+        },
+        {
+            ""date_ora"": ""5 ottobre 2023 8:50"",
+            ""titolo"": ""Inizio lezioni classe 3F""
+        },
+        {
+            ""date_ora"": ""5 ottobre 2023 13:45"",
+            ""titolo"": ""Fine lezioni classe 3F""
+        },
+        {
+            ""date_ora"": ""13 ottobre 2023 7:55"",
+            ""titolo"": ""Inizio lezioni classe 3F""
+        },
+        {
+            ""date_ora"": ""13 ottobre 2023 13:45"",
+            ""titolo"": ""Fine lezioni classe 3F""
+        },
+        {
+            ""date_ora"": ""16 ottobre 2023 8:50"",
+            ""titolo"": ""Inizio lezioni classe 3G""
+        },
+        {
+            ""date_ora"": ""16 ottobre 2023 12:50"",
+            ""titolo"": ""Fine lezioni classe 3G""
+        },
+        {
+            ""date_ora"": ""26 ottobre 2023 8:50"",
+            ""titolo"": ""Inizio lezioni classe 3G""
+        },
+        {
+            ""date_ora"": ""26 ottobre 2023 13:45"",
+            ""titolo"": ""Fine lezioni classe 3G""
+        },
+        {
+            ""date_ora"": ""3 novembre 2023 7:55"",
+            ""titolo"": ""Inizio lezioni classe 3G""
+        },
+        {
+            ""date_ora"": ""3 novembre 2023 13:45"",
+            ""titolo"": ""Fine lezioni classe 3G""
+        }
+    ]
+}"
 Circ.49 - Pensione cessazioni dal servizio 01_09_24.pdf,"Cessazioni dal servizio dal 1° settembre 202 4. Trattamento 
 di quiescenza e di  previdenza.  Indicazioni  operative.","Ai DOCENTI  
 Al personale  ATA 
@@ -2938,7 +3735,22 @@ Si allega:
  
 Il dirigente scolastico  
 Prof. Squarzoni  Marco  
-"
+","La Nota MIM prot. 54257 del 18/09/2023 fornisce indicazioni sulla cessazione dal servizio secondo il Decreto ministeriale 15 settembre 2023, n. 185. Il personale può verificare i requisiti per andare in pensione dal 01.09.2024 e presentare le domande entro il 23/10/2023 tramite POLIS Istanze online.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""18 settembre 2023"",
+            ""titolo"": ""Nota MIM prot. 54257""
+        },
+        {
+            ""date_ora"": ""01 settembre 2024"",
+            ""titolo"": ""Verifica requisiti per andare in pensione""
+        },
+        {
+            ""date_ora"": ""23 ottobre 2023"",
+            ""titolo"": ""Scadenza presentazione domande di cessazione""
+        }
+    ]
+}"
 Circ.52 - Programma viaggio a Roma 5-7 ottobre.pdf,Viaggio -studio rete dei licei per l’archeologia ROMA,"Circ.52 
       
 Agli studenti in elenco  
@@ -3013,7 +3825,42 @@ FORONI GIANMARCO 2G
 GHIULEA LUCREZIA 5 A  
 FERRIAN LINDA 5 A  
  
-  "
+  ",Viaggio studio a Roma dal 5 al 7 ottobre 2023 con visita a monumenti e ristoranti. Costo totale di 92 euro da consegnare entro il 28 settembre. Elenco iscritti incluso. Comunicare allergie alimentari. Prof.ssa Zuccher Daniela disponibile per chiarimenti.,"{
+    ""eventi"": [
+        {
+            ""date_ora"": ""5 ottobre 2023 06:30"",
+            ""titolo"": ""Ritrovo alla stazione di Porta Nuova Verona""
+        },
+        {
+            ""date_ora"": ""5 ottobre 2023 14:30"",
+            ""titolo"": ""Visita Stadio di Domiziano e Pantheon""
+        },
+        {
+            ""date_ora"": ""5 ottobre 2023 19:30"",
+            ""titolo"": ""Cena presso il ristorante Antica Taverna""
+        },
+        {
+            ""date_ora"": ""6 ottobre 2023 09:00"",
+            ""titolo"": ""Visita alle Terme di Caracalla""
+        },
+        {
+            ""date_ora"": ""6 ottobre 2023 11:30"",
+            ""titolo"": ""Visita Colosseo""
+        },
+        {
+            ""date_ora"": ""6 ottobre 2023 14:00"",
+            ""titolo"": ""Pranzo in ristorante""
+        },
+        {
+            ""date_ora"": ""6 ottobre 2023 19:30"",
+            ""titolo"": ""Cena presso il ristorante Antica Taverna""
+        },
+        {
+            ""date_ora"": ""7 ottobre 2023"",
+            ""titolo"": ""Visita a S. Maria degli Angeli e alle Terme di Diocleziano""
+        }
+    ]
+}"
 Circ.57 - Orario definitivo docenti.pdf,Pubblicazione o rario definitivo  docenti in vigore da  lunedì  2 ottobre,"          AI DOCENTI  
            E p.c. Alla Dsga e Personale Ata  
  
@@ -3034,7 +3881,14 @@ prima.
  
         Il dirigente scolastico  
    Marco Squarzoni  
- "
+ ","Pubblicato l'orario in vigore da lunedì 2 ottobre, con ore a disposizione e di RFO da definire. Inserite le ore di potenziamento, modificabili con la vicepresidenza. Dipartimenti concordano ore per sportelli Help. Circolare per sorveglianze all'intervallo in arrivo. Marco Squarzoni, dirigente scolastico.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""2 ottobre %Y %H:%M"",
+            ""titolo"": ""Pubblicazione dell'orario in vigore""
+        }
+    ]
+}"
 Circ.59 - Orario definitivo classi.pdf,Pubblicazione orario definitivo in vigore dal 2 ottobre,"         A TUTTE LE CLASSI  
          ALLE FAMIGLIE  
          AI DOCENTI  
@@ -3064,7 +3918,14 @@ comunicazione in vicepresidenza).
  
  
  
-"
+",Viene pubblicato l'orario definitivo delle lezioni in vigore da lunedì 2 ottobre. Eventuali variazioni future verranno comunicate direttamente alle classi. Gli studenti senza IRC devono controllare la collocazione dell'ora di lezione e chiedere eventuali modifiche entro venerdì 29.,"{
+    ""eventi"": [
+        {
+            ""date_ora"": ""oggi %d %B %Y %H:%M"",
+            ""titolo"": ""Pubblicazione dell'orario definitivo delle lezioni""
+        }
+    ]
+}"
 Circ.61 - Orario 2M_errata corrige.pdf,ORARIO DEFINITIVO – ERRATA CORRIGE,"       Alla classe 2M    
         Alla prof.ssa Roina  
        Al personale ATA  
@@ -3090,7 +3951,14 @@ pubblicato in data odierna.
  
  
  
-"
+",Il Dirigente Scolastico Marco Squarzoni pubblica nuovamente l'orario della classe 2M con una correzione rispetto a quello pubblicato oggi.,"{
+    ""eventi"": [
+        {
+            ""date_ora"": ""oggi %d %B %Y %H:%M"",
+            ""titolo"": ""Pubblicazione dell'orario della classe 2M con correzione""
+        }
+    ]
+}"
 Circ.67 - Permessi diritto studio docenti sostegno TFA .pdf,"Permessi per diritto allo studio periodo ottobre -dicembre 2023 
 per il personale docente frequentante i percorsi di formazione 
 per il conseguimento della specializzazione per le attività di 
@@ -3122,7 +3990,14 @@ definitivamente il 16.11.2022 e ad oggi vigente.
  
  
  
-"
+",Il personale iscritto ai percorsi di formazione per la specializzazione per il sostegno agli alunni con disabilità può usufruire di permessi per diritto allo studio da ottobre a dicembre 2023. Le domande devono essere inviate entro il 9 ottobre 2023 con documentazione.,"{
+    ""eventi"": [
+        {
+            ""date_ora"": ""9 ottobre 2023"",
+            ""titolo"": ""Scadenza domande permessi per diritto allo studio""
+        }
+    ]
+}"
 Circ.7 - Vademecum studenti.pdf,vademecum per studenti,"AI GENITORI  
 AGLI ALUNNI  
  
@@ -3202,7 +4077,42 @@ si farà carico di fare le necessarie segnalazioni all’Azienda Trasporti di Ve
  
  
 IL DIRIGENTE SCOLASTICO  
-    Prof. Marco Squarzon i "
+    Prof. Marco Squarzon i ","Il testo fornisce informazioni sulle giustificazioni delle assenze e dei ritardi, sulle uscite anticipate, sul libretto personale, sulle regole di convivenza, sulle fotocopie e sui trasporti. Il Dirigente Scolastico è il Prof. Marco Squarzoni.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""%d %B %Y %H:%M"",
+            ""titolo"": ""Ripresa delle lezioni""
+        },
+        {
+            ""date_ora"": ""%d %B %Y %H:%M"",
+            ""titolo"": ""Giustificazione delle assenze e dei ritardi""
+        },
+        {
+            ""date_ora"": ""%d %B %Y %H:%M"",
+            ""titolo"": ""Uscite anticipate""
+        },
+        {
+            ""date_ora"": ""%d %B %Y %H:%M"",
+            ""titolo"": ""Libretto personale""
+        },
+        {
+            ""date_ora"": ""%d %B %Y %H:%M"",
+            ""titolo"": ""Regole di convivenza""
+        },
+        {
+            ""date_ora"": ""%d %B %Y %H:%M"",
+            ""titolo"": ""Fotocopie""
+        },
+        {
+            ""date_ora"": ""%d %B %Y %H:%M"",
+            ""titolo"": ""Trasporti""
+        },
+        {
+            ""date_ora"": ""%d %B %Y %H:%M"",
+            ""titolo"": ""Dirigente Scolastico - Prof. Marco Squarzoni""
+        }
+    ]
+}"
 Circ.8 - Accoglienza classi prime 13 settembre .pdf,Accoglienza alunni classi prime 13 settembre," Ai coordinatori di classe  
  Ai docenti  
  
@@ -3219,4 +4129,13 @@ classi prime previste per il primo giorno di scuola.
 IL DIRIGENTE SCOLASTICO  
     Prof. Marco Squarzoni  
  
-"
+","In allegato materiali per accoglienza alunni classi prime il primo giorno di scuola.  
+ 
+IL DIRIGENTE SCOLASTICO Prof. Marco Squarzoni.","{
+    ""eventi"": [
+        {
+            ""date_ora"": ""01 settembre 2022 00:00"",
+            ""titolo"": ""Primo giorno di scuola per le classi prime""
+        }
+    ]
+}"
