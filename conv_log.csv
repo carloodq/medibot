@@ -1,0 +1,11 @@
+session , user , message , timestamp,session,user,message,timestamp
+,,,,d4211933-92db-4dd0-a393-505692adbb24,user,Quanto costa il viaggio di studio a roma,2024/05/04 12:02:47
+,,,,d4211933-92db-4dd0-a393-505692adbb24,bot,"Il viaggio di studio a Roma ha un costo di 242,00 euro comprensivo di treno A/R e sistemazione in hotel mezza pensione. È stato già versato un acconto di 150,00 euro nel mese di luglio e entro il 18 settembre va versato il saldo di 92,00 euro.",2024/05/04 12:02:49
+,,,,d4211933-92db-4dd0-a393-505692adbb24,user,dove avrà luogo ?,2024/05/04 12:03:54
+,,,,d4211933-92db-4dd0-a393-505692adbb24,bot,Il viaggio studio della rete dei licei per l'Archeologia si svolgerà a Roma dal 5 al 7 ottobre 2023.,2024/05/04 12:03:55
+,,,,d4211933-92db-4dd0-a393-505692adbb24,user,A quali classi è rivolto ?,2024/05/04 12:04:18
+,,,,d4211933-92db-4dd0-a393-505692adbb24,bot,"Il viaggio studio della rete dei licei per l'Archeologia a Roma è rivolto alle seguenti classi: 4D, 4A, 3B, 3A, 2A, 2F, 2G, 4I, 5A.",2024/05/04 12:04:20
+,,,,6c070374-065d-48b7-9aab-cad60bb663d1,user,riassumi il documento,2024/05/07 12:19:13
+,,,,6c070374-065d-48b7-9aab-cad60bb663d1,bot,"Il documento fornisce informazioni essenziali sulle regole e le procedure che regolano l'attività scolastica del Liceo, inclusi dettagli su giustificazioni delle assenze e dei ritardi, uscite anticipate, regole di convivenza, fotocopie, trasporti e contatti del dirigente scolastico.",2024/05/07 12:19:15
+,,,,969395b3-ff4c-4d5a-b920-8d077ac1bd8a,user,riassumi,2024/05/07 12:42:59
+,,,,969395b3-ff4c-4d5a-b920-8d077ac1bd8a,bot,"Il documento fornisce informazioni essenziali sulle regole e le procedure scolastiche del Liceo, inclusi i criteri per giustificare assenze e ritardi, le regole di comportamento, le autorizzazioni per uscite anticipate, l'importanza del libretto personale e altre disposizioni relative alla vita scolastica.",2024/05/07 12:43:01
