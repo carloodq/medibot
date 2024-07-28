@@ -10,6 +10,8 @@ from search_and_gen import get_top_4, gen_reply
 from streamlit.runtime import get_instance
 from streamlit.runtime.scriptrunner import get_script_run_ctx
 import json
+from langchain_community.retrievers import BM25Retriever
+
 
 
 
@@ -59,21 +61,21 @@ def calendario():
 def upload_docs():
     st.title("Carica PDF")
 
-    uploaded_file = st.file_uploader("Carica una circolare in formato PDF", type=['pdf'])
+    uploaded_files = st.file_uploader("Carica una circolare in formato PDF", type=['pdf'], accept_multiple_files = True)
 
-    if uploaded_file is not None:
-        save_folder = "pdfs"  # Replace with your desired folder path
-        save_path = Path(save_folder, uploaded_file.name)
+    for uploaded_file in uploaded_files:
+        if uploaded_file is not None:
+            save_folder = "pdfs"  # Replace with your desired folder path
+            save_path = Path(save_folder, uploaded_file.name)
 
-        with open(save_path, mode='wb') as f:
-            f.write(uploaded_file.getvalue())
+            with open(save_path, mode='wb') as f:
+                f.write(uploaded_file.getvalue())
 
-        st.success(f"File '{uploaded_file.name}' saved successfully!")
-    else:
-        st.info("Please upload a PDF file.")
+            st.success(f"File '{uploaded_file.name}' saved successfully!")
+        else:
+            st.info("Please upload a PDF file.")
 
-
-def search_docs():
+    st.title("Cerca PDF")
 
     # Create a text input for search terms
     search_term = st.text_input("Inserisci i termini della ricerca:")
@@ -89,27 +91,45 @@ def search_docs():
         for filename in os.listdir('pdfs'):
             if filename.lower().endswith(".pdf"):  # Check for lowercase and uppercase extensions
                 pdf_filenames.append(filename)
+
+        retriever = BM25Retriever.from_texts(pdf_filenames, k = len(pdf_filenames))
+        results = retriever.invoke(search_term)
+
+
+
+
+
+        
                 
         # Display title
         st.title("Risultati")
 
         # Loop to display three results
-        for i in range(len(pdf_filenames)):
+        for i in range(len(results)):
             container = st.container(border=True)
 
             # Create columns
-            col1, col2 = container.columns( [1, 4])  # You can also specify width ratios as a list (e.g., [2, 1])
+            col1, col2 = container.columns( [1, 6])  # You can also specify width ratios as a list (e.g., [2, 1])
 
             # Use the columns for your content
             with col1:
-                col1.write(pdf_filenames[i])
+                pass
 
             with col2:
-                col2.write("*descrizione*")
+                col2.write(results[i].page_content)
             
+
+
+
+
+
+
+
         
 
 def substitute():
+
+    
 
     st.markdown("## Ricerca supplente")
 
@@ -137,100 +157,103 @@ def substitute():
 
 
     st.markdown(stravprofs)
+    
+
+    with st.expander("Modifica orari docenti ✏️"):
+
+        st.markdown("# Modifica orari ")
 
 
-def orari_profs():
-
-    st.markdown("# Modifica orari ")
-
-
-    data_df = pd.read_csv("orari_prof.csv")
-    profsdf = pd.read_csv("profs.csv")
-    profs =  list(profsdf['Docente'])
-    classidf = pd.read_csv("classi.csv")
-    classi = list(classidf['Classe'])
+        data_df = pd.read_csv("orari_prof.csv")
+        profsdf = pd.read_csv("profs.csv")
+        profs =  list(profsdf['Docente'])
+        classidf = pd.read_csv("classi.csv")
+        classi = list(classidf['Classe'])
 
 
-    updated_df = st.data_editor(
-        data_df,
-        column_config={
-            "Ora": st.column_config.NumberColumn(
-            "Ora",
-            min_value=1,
-            max_value=7,
-            step=1,
-            required=True
-                ),
+        updated_df = st.data_editor(
+            data_df,
+            column_config={
+                "Ora": st.column_config.NumberColumn(
+                "Ora",
+                min_value=1,
+                max_value=7,
+                step=1,
+                required=True,
+                width="small",
+
+                    ),
 
 
-            "Giorno":  st.column_config.SelectboxColumn(
-            "Giorno",
-            width="medium",
-             options=["Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato", "Domenica"],
-            required=True),
+                "Giorno":  st.column_config.SelectboxColumn(
+                "Giorno",
+                width="small",
+                options=["Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato", "Domenica"],
+                required=True),
 
-            "Docente":  st.column_config.SelectboxColumn(
-            "Docente",
-            width="medium",
-             options=profs,
-            required=True),
+                "Docente":  st.column_config.SelectboxColumn(
+                "Docente",
+                width="small",
+                options=profs,
+                required=True),
 
 
-            "Classe":  st.column_config.SelectboxColumn(
-            "Classe",
-            width="medium",
-             options=classi,
-            required=True)
-            
-            },
-        hide_index=True,
-        num_rows="dynamic"
+                "Classe":  st.column_config.SelectboxColumn(
+                "Classe",
+                width="small",
+                options=classi,
+                required=True)
+                
+                },
+            hide_index=True,
+            num_rows="dynamic"
 
-    )
+        )
 
 
 
-    if st.button("Salva Orari", type="primary"):
-        updated_df = updated_df.dropna()
-        updated_df.to_csv("orari_prof.csv", index = False)
-        salvato = st.success('Salvato', icon="✅")
-        time.sleep(3) 
-        salvato.empty()
+        if st.button("Salva Orari", type="primary"):
+            updated_df = updated_df.dropna()
+            updated_df.to_csv("orari_prof.csv", index = False)
+            salvato = st.success('Salvato', icon="✅")
+            time.sleep(3) 
+            salvato.empty()
 
 
-    st.markdown("# Modifica professori ")
+        st.markdown("# Modifica professori ")
 
 
-    updated_df = st.data_editor(
-        profsdf,
-        hide_index=True,
-        num_rows="dynamic"
+        updated_df = st.data_editor(
+            profsdf,
+            hide_index=True,
+            num_rows="dynamic"
 
-    )
+        )
 
-    if st.button("Salva Professori", type="primary"):
-        updated_df = updated_df.dropna()
-        updated_df.to_csv("profs.csv", index = False)
-        salvato = st.success('Salvato', icon="✅")
-        time.sleep(3) 
-        salvato.empty()
+        if st.button("Salva Professori", type="primary"):
+            updated_df = updated_df.dropna()
+            updated_df.to_csv("profs.csv", index = False)
+            salvato = st.success('Salvato', icon="✅")
+            time.sleep(3) 
+            salvato.empty()
 
-    st.markdown("# Modifica classi ")
+        st.markdown("# Modifica classi ")
 
 
-    updated_df = st.data_editor(
-        classidf,
-        hide_index=True,
-        num_rows="dynamic"
+        updated_df = st.data_editor(
+            classidf,
+            hide_index=True,
+            num_rows="dynamic"
 
-    )
+        )
 
-    if st.button("Salva Classi", type="primary"):
-        updated_df = updated_df.dropna()
-        updated_df.to_csv("classi.csv", index = False)
-        salvato = st.success('Salvato', icon="✅")
-        time.sleep(3) 
-        salvato.empty()
+        if st.button("Salva Classi", type="primary"):
+            updated_df = updated_df.dropna()
+            updated_df.to_csv("classi.csv", index = False)
+            salvato = st.success('Salvato', icon="✅")
+            time.sleep(3) 
+            salvato.empty()
+
 
 
 
