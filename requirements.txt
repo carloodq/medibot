@@ -6,3 +6,4 @@ faiss-cpu
 tiktoken
 datefinder
 langchain_community
+rank_bm25

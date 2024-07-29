@@ -12,6 +12,10 @@ from streamlit.runtime.scriptrunner import get_script_run_ctx
 import json
 from langchain_community.retrievers import BM25Retriever
 
+from langchain.chat_models import ChatOpenAI
+from langchain.schema import (
+    HumanMessage
+)
 
 
 
@@ -462,3 +466,44 @@ def cerca_circ():
             context = str([x['content'] for x in st.session_state.contesto_dict])
             response, chat_history = gen_reply(prompt, context, chat_history)
             new_mex(st, response)
+
+
+def crea():
+    st.title("Genera domande per la verifica")
+    testo_rif = st.text_area("Testo di riferimento")
+    n_dom = st.slider("Quante domande vuoi generare (da 1 a 10)", 1, 10)
+    diff = st.slider("Livello di difficoltà (da 1 a 3)", 1, 3)
+    tipo_dom = st.radio("Pick one", ["Risposta Multipla", "Vero/Falso", "Domanda aperta"], index = None)
+    if tipo_dom == "Risposta Multipla":
+        risp_mult_opzioni = st.radio("Quante opzioni per ogni risposta multipla (da 3 a 5)", [3, 4, 5])
+        tipo_dom += "con " + str(risp_mult_opzioni) + " opzioni ciascuna"
+    if st.button("Genera verifica"):
+        model_name = "gpt-3.5-turbo"
+        chat = ChatOpenAI(model_name=model_name, temperature=0)
+        question = f"""Sei un chatbot che aiuta i professori delle scuole superiori a creare delle verifiche.
+                        Devi creare una verifica che testi gli studenti sugli argomenti contenuti in questo testo
+
+                        Testo: {testo_rif}
+
+                        La verifica deve contenere in tutto {n_dom} domande {tipo_dom}. Se consideriamo un livello di difficoltà da 1 a 3, crea delle domande di difficoltà {diff}.
+                        Indica anche le soluzioni alle domande che generi.
+                        Usa un formato markdown."""
+
+        response = chat([HumanMessage(content=question)]).content
+        st.divider()
+        st.markdown(response)
+
+
+
+
+        
+
+
+
+
+    
+
+
+
+
+
