@@ -7,3 +7,4 @@ tiktoken
 datefinder
 langchain_community
 rank_bm25
+streamlit-cookies-manager

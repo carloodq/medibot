@@ -1,4 +1,4 @@
 circolari 2023-24-2024
-.streamlit
+.streamlit/secrets.toml
 *.ipynb
 sviluppo.md

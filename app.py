@@ -12,57 +12,92 @@ import hmac
 import streamlit as st
 
 
-# def check_password():
-#     """Returns `True` if the user had a correct password."""
+from streamlit_cookies_manager import EncryptedCookieManager
 
-#     def login_form():
-#         """Form with widgets to collect user information"""
-#         with st.form("Credentials"):
-#             st.text_input("Username", key="username")
-#             st.text_input("Password", type="password", key="password")
-#             st.form_submit_button("Log in", on_click=password_entered)
-
-#     def password_entered():
-#         """Checks whether a password entered by the user is correct."""
-#         if st.session_state["username"] in st.secrets[
-#             "passwords"
-#         ] and hmac.compare_digest(
-#             st.session_state["password"],
-#             st.secrets.passwords[st.session_state["username"]],
-#         ):
-#             st.session_state["password_correct"] = True
-#             del st.session_state["password"]  # Don't store the username or password.
-#             del st.session_state["username"]
-#         else:
-#             st.session_state["password_correct"] = False
-
-#     # Return True if the username + password is validated.
-#     if st.session_state.get("password_correct", False):
-#         return True
-
-#     # Show inputs for username + password.
-#     login_form()
-#     if "password_correct" in st.session_state:
-#         st.error("😕 User not known or password incorrect")
-#     return False
+from streamlit_js_eval import streamlit_js_eval
 
 
-# if not check_password():
-#     st.stop()
+# This should be a long random string
+COOKIE_SECRET = "your_cookie_secret_key"
+
+# Initialize the cookie manager
+cookies = EncryptedCookieManager(password=COOKIE_SECRET)
+
+if not cookies.ready():
+    st.stop()
+
+def check_password():
+    """Returns `True` if the user had a correct password."""
+
+    def login_form():
+        """Form with widgets to collect user information"""
+        with st.form("Credentials"):
+            st.text_input("Username", key="username")
+            st.text_input("Password", type="password", key="password")
+            st.form_submit_button("Log in", on_click=password_entered)
+
+    def password_entered():
+        """Checks whether a password entered by the user is correct."""
+        if st.session_state["username"] in st.secrets[
+            "passwords"
+        ] and hmac.compare_digest(
+            st.session_state["password"],
+            st.secrets.passwords[st.session_state["username"]],
+        ):
+            st.session_state["password_correct"] = True
+            cookies["username"] = st.session_state["username"]
+            cookies["password_correct"] = "true"
+            del st.session_state["password"]  # Don't store the username or password.
+            del st.session_state["username"]
+        else:
+            st.session_state["password_correct"] = False
+
+    # Check if cookies have valid login information
+    if cookies.get("password_correct") == "true":
+        st.session_state["password_correct"] = True
+        st.session_state["username"] = cookies.get("username")
+
+    # Return True if the username + password is validated.
+    if st.session_state.get("password_correct", False):
+        return True
+
+    # Show inputs for username + password.
+    login_form()
+    if "password_correct" in st.session_state:
+        st.error("😕 User not known or password incorrect")
+    return False
+
+
+if not check_password():
+    st.stop()
+
+
+if st.button("Esci"):
+    cookies["password_correct"] = "false"
+    st.session_state.pop("password_correct")
+    cookies["username"] = ''
+    st.rerun()
+# try:
+#     usnm = cookies.get("username")
+# except:
+#     usnm = "None"
+# # Your main app code goes here
+# st.write(f"Ciao!")
+
 
 
 
 st.title("LEEM")
 
 # Create the tabs
-tab1, tab2, tab3, tab4 = st.tabs(["Calendario", "Circolari",  "Ricerca supplemente", "Crea"])
+tab1, tab2, tab3, tab4 = st.tabs([ "Circolari", "Calendario", "Ricerca supplemente", "Crea"])
 
 # Content for each tab
 with tab1:
-  calendario()
-
+    upload_docs()
+  
 with tab2:
-   upload_docs()
+   calendario()
 
 with tab3:
    substitute()
