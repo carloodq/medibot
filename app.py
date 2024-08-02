@@ -4,7 +4,7 @@ os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 import pandas as pd
 from datetime import datetime
 import time
-from tabs import calendario, upload_docs, substitute,  crea
+from tabs import calendario, upload_docs, substitute,  crea, segreteria
 
 # streamlit_app.py
 
@@ -90,11 +90,16 @@ if st.button("Esci"):
 st.title("LEEM")
 
 # Create the tabs
-tab1, tab2, tab3, tab4 = st.tabs([ "Circolari", "Calendario", "Ricerca supplemente", "Crea"])
+tab0, tab1, tab2, tab3, tab4 = st.tabs([ "Circolari", "Chatbot segreteria", "Calendario", "Ricerca supplemente", "Crea"])
+
+
 
 # Content for each tab
-with tab1:
+with tab0:
     upload_docs()
+    
+with tab1:
+    segreteria()
   
 with tab2:
    calendario()

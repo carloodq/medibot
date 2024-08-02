@@ -123,7 +123,44 @@ def upload_docs():
                 col2.write(results[i].page_content)
             
 
+def segreteria():
 
+    data_df = pd.read_csv("info_scuola.csv")
+
+    info_scuola = data_df['info_scuola'][0]
+
+    with st.expander("🎒 Aggiungi le conoscenze del chatbot in forma testuale"):
+        info_scuola_ti = st.text_area("Informazioni di contesto sulla scuola", value = info_scuola, height = 300 )
+
+        if st.button("Salva", type="primary", key = "info_scuola"):
+            pd.DataFrame({'info_scuola': [info_scuola_ti]}).to_csv("info_scuola.csv", index = False)
+            salvato = st.success('Salvato', icon="✅")
+            time.sleep(3) 
+            salvato.empty()
+
+    st.write("### Interroga la segreteria")
+    col1,   col2 = st.columns([5, 1])
+    domanda_seg = col1.text_input("", label_visibility = 'collapsed', placeholder = "quali sono gli orari di apertura")
+    seg_chat = col2.button("Invia", use_container_width =True)
+
+
+    if seg_chat:
+        model_name = "gpt-3.5-turbo"
+        chat_seg = ChatOpenAI(model_name=model_name, temperature=0)
+        domanda_seg = f"""Sei la segretaria di una scuola. 
+                        Conosci queste informazioni sulla scuola:{info_scuola_ti}
+
+                        Rispondi alla seguente domanda.
+
+                        Domanda:{domanda_seg}
+
+                        Rispondi in modo breve e diretto.
+                        Se non conosci la risponsta alla domanda, di che non lo sai.
+                        """
+
+        response = chat_seg([HumanMessage(content=domanda_seg)]).content
+        st.divider()
+        st.markdown(response)
 
 
 

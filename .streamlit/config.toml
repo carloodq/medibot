@@ -1,2 +1,6 @@
 [client]
 showErrorDetails = false
+
+[theme]
+base="dark"
+primaryColor = "#ffb77d"
