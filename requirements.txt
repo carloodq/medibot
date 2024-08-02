@@ -8,3 +8,4 @@ datefinder
 langchain_community
 rank_bm25
 streamlit-cookies-manager
+streamlit_js_eval                         
