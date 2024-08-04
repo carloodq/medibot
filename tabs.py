@@ -19,6 +19,29 @@ from langchain.schema import (
 
 
 
+
+def chiedi_seg(domanda_seg, info_scuola, chat_history):
+
+    model_name = "gpt-3.5-turbo"
+    chat_seg = ChatOpenAI(model_name=model_name, temperature=0)
+    domanda_seg = f"""Sei la segretaria di una scuola. 
+                    Conosci queste informazioni sulla scuola:{info_scuola}
+
+                    Rispondi alla seguente domanda.
+
+                    Domanda:{domanda_seg}
+
+                    Conversazione finora: {chat_history}
+
+                    Rispondi in modo breve e diretto.
+                    Se non conosci la risponsta alla domanda, di che non lo sai.
+                    """
+
+    response = chat_seg([HumanMessage(content=domanda_seg)]).content
+    return response
+
+
+
 def calendario():
 
     data_df = pd.read_csv("calendario_medi.csv")
@@ -138,10 +161,18 @@ def segreteria():
             time.sleep(3) 
             salvato.empty()
 
+
+    st.link_button("Apri chatbot", "https://leembot.streamlit.app/")
+    st.write("Oppure copia il link e condividi")
+    col3,   col4 = st.columns([1, 1])
+    col3.code("https://leembot.streamlit.app/")
+    st.divider()
+
     st.write("### Interroga la segreteria")
     col1,   col2 = st.columns([5, 1])
     domanda_seg = col1.text_input("", label_visibility = 'collapsed', placeholder = "quali sono gli orari di apertura")
     seg_chat = col2.button("Invia", use_container_width =True)
+
 
 
     if seg_chat:
@@ -161,6 +192,8 @@ def segreteria():
         response = chat_seg([HumanMessage(content=domanda_seg)]).content
         st.divider()
         st.markdown(response)
+
+
 
 
 
